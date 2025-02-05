@@ -6,7 +6,7 @@ st.set_page_config(page_title="Researcher Profile and Publication Data Explorer"
 
 left, right = st.columns(2, border=True)
 
-left.image("https://photos.app.goo.gl/SPgaWFfoZ4LaLi1m8", width=200)
+left.image("https://photos.fife.usercontent.google.com/pw/AP1GczMjgLOdCSYm5rrbfzoto_Hr7lOJsLVRc0NOcvhNGE4YGpnJJMrlldN9Ig=w611-h917-s-no-gm?authuser=0", width=200)
 # Collect basic information
 name = "Mr Sophakama Zabo"
 field = "Bioinformatics"
