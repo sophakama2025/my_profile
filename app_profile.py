@@ -6,7 +6,7 @@ st.set_page_config(page_title="Researcher Profile and Publication Data Explorer"
 
 left, right = st.columns(2, border=True)
 
-left.image("https://raw.githubusercontent.com/sophakama2025/my_profile/refs/heads/main/Sophakama_Zabo.jpg", width=200)
+left.image("https://raw.githubusercontent.com/sophakama2025/my_profile/refs/heads/main/Sophakama_Zabo.jpg")
 # Collect basic information
 name = "Mr Sophakama Zabo"
 field = "Bioinformatics"
