@@ -3,7 +3,7 @@ import pandas as pd
 
 left, right = st.columns(2, border=True)
 
-left.image("https://static.streamlit.io/examples/cat.jpg", width=200))
+left.image("https://static.streamlit.io/examples/cat.jpg", width=200)
 # Collect basic information
 name = "Mr Sophakama Zabo"
 field = "Bioinformatics"
