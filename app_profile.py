@@ -45,6 +45,7 @@ with tab2:
 with tab3:
     st.header("Publication Trends")
     if uploaded_file:
+        publications = pd.read_csv(uploaded_file)
         if "Year" in publications.columns:
             year_counts = publications["Year"].value_counts().sort_index()
             st.bar_chart(year_counts)
