@@ -4,15 +4,15 @@ import pandas as pd
 left, right = st.columns(2, border=True)
 
 left.markdown(st.image("https://static.streamlit.io/examples/cat.jpg", width=200))
-right.markdown(# Collect basic information
+# Collect basic information
 name = "Mr Sophakama Zabo"
 field = "Bioinformatics"
 institution = "Rhodes University"
-
 # Display basic profile information
-st.header("Researcher Overview")
-st.write(f"**Name:** {name}")
-st.write(f"**Field of Research:** {field}")
+
+right.markdown(st.header("Researcher Overview"),
+st.write(f"**Name:** {name}"),
+st.write(f"**Field of Research:** {field}"),
 st.write(f"**Institution:** {institution}"))
 
 # Title of the app
