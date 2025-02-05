@@ -6,7 +6,7 @@ st.set_page_config(page_title="Researcher Profile and Publication Data Explorer"
 
 left, right = st.columns(2, border=True)
 
-left.image("https://photos.fife.usercontent.google.com/pw/AP1GczMjgLOdCSYm5rrbfzoto_Hr7lOJsLVRc0NOcvhNGE4YGpnJJMrlldN9Ig=w611-h917-s-no-gm?authuser=0", width=200)
+left.image("https://raw.githubusercontent.com/sophakama2025/my_profile/refs/heads/main/Sophakama_Zabo.jpg", width=200)
 # Collect basic information
 name = "Mr Sophakama Zabo"
 field = "Bioinformatics"
@@ -25,7 +25,7 @@ with tab1:
     st.write("I am alive until further notice...\n\n\n...and it's not that serious...\n\n\n...like at all!")
 with tab2:
     st.header("Publications")
-    uploaded_file = "https://drive.google.com/file/d/1R80JqifAqoyFSqNaXPTmF183PXZ1Vhsc/view?usp=drive_link" #st.file_uploader("Upload a CSV of Publications", type="csv")
+    uploaded_file = "https://github.com/sophakama2025/my_profile/blob/main/publications.csv" #st.file_uploader("Upload a CSV of Publications", type="csv")
 
     if uploaded_file:
         publications = pd.read_csv(uploaded_file)
