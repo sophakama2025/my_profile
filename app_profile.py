@@ -25,7 +25,7 @@ with tab1:
     st.write("I am alive until further notice...\n\n\n...and it's not that serious...\n\n\n...like at all!")
 with tab2:
     st.header("Publications")
-    uploaded_file = "https://github.com/sophakama2025/my_profile/blob/main/publications.csv" #st.file_uploader("Upload a CSV of Publications", type="csv")
+    uploaded_file = "./publications.csv" #st.file_uploader("Upload a CSV of Publications", type="csv")
 
     if uploaded_file:
         publications = pd.read_csv(uploaded_file)
