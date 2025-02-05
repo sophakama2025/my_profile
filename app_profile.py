@@ -23,7 +23,10 @@ with st.container():
 
     with tab1:
         st.header("Biography")
-        st.write("I am alive until further notice...\n\n\n...and it's not that serious...\n\n\n...like at all!")
+        #st.write("I am alive until further notice...\n\n\n...and it's not that serious...\n\n\n...like at all!")
+        st.write(''' Sophakama Zabo is a third-year PhD candidate in Bioinformatics at Rhodes University.
+My main research interests lie in Computational Mechanistic Chemistry and Computer-aided Drug Discovery, 
+with additional passions for Machine Learning, Green Chemistry, Ethnochemistry, and Genomics (human and viral).''')
     with tab2:
         st.header("Publications")
         uploaded_file = "./publications.csv" #st.file_uploader("Upload a CSV of Publications", type="csv")
