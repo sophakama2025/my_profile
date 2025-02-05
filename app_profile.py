@@ -60,7 +60,13 @@ with st.container():
     
         # Add a section for visualizing publication trends
        
+st.header("Learn the HTML code for colors below")
 color = st.color_picker("Pick A Color", "#00f900")
 st.write("The current color is", color)
 
+st.write("Rate Your Experience On This Page. Your Feedback is Valued!")
+sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]
+selected = st.feedback("thumbs")
+if selected is not None:
+    st.markdown(f"You selected: {sentiment_mapping[selected]}")
 
