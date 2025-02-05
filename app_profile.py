@@ -3,17 +3,17 @@ import pandas as pd
 
 left, right = st.columns(2, border=True)
 
-left.markdown(st.image("https://static.streamlit.io/examples/cat.jpg", width=200))
+left.image("https://static.streamlit.io/examples/cat.jpg", width=200))
 # Collect basic information
 name = "Mr Sophakama Zabo"
 field = "Bioinformatics"
 institution = "Rhodes University"
 # Display basic profile information
 
-right.markdown(st.header("Researcher Overview"),
-st.write(f"**Name:** {name}"),
-st.write(f"**Field of Research:** {field}"),
-st.write(f"**Institution:** {institution}"))
+right.header("Researcher Overview")
+right.write(f"**Name:** {name}")
+right.write(f"**Field of Research:** {field}")
+right.write(f"**Institution:** {institution}")
 
 # Title of the app
 st.set_page_config(page_title="Researcher Profile and Publication Data Explorer", layout="wide")
