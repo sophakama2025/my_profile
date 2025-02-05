@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+# Title of the app
+st.set_page_config(page_title="Researcher Profile and Publication Data Explorer", layout="wide")
+
 left, right = st.columns(2, border=True)
 
 left.image("https://static.streamlit.io/examples/cat.jpg", width=200)
@@ -14,11 +17,6 @@ right.header("Researcher Overview")
 right.write(f"**Name:** {name}")
 right.write(f"**Field of Research:** {field}")
 right.write(f"**Institution:** {institution}")
-
-# Title of the app
-st.set_page_config(page_title="Researcher Profile and Publication Data Explorer", layout="wide")
-
-
 
 tab1, tab2, tab3, tab4 = st.tabs(["Bio", "Publications", "Publication Trends", "Contact Details"])
 
